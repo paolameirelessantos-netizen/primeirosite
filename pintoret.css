@@ -15,12 +15,15 @@ body{
 }
 
 .janela{
+
     width: 1500px;
     min-height: 80vh;
 
     display: grid;
 
     grid-template-columns: 250px 1fr 220px;
+
+    grid-template-rows: 150px 1fr;
 
     gap: 15px;
   
@@ -34,14 +37,14 @@ body{
     background-size: cover;
     background-position: center;
 
-    border-radius:15px;
+    border-radius:1px;
     overflow:hidden;
 }
 
 .topo{
-    grid-column:1 / 4;
-
-    padding:20px;
+     grid-column: 1 / 4;
+   
+     padding: 8px 20px;
 
     background:linear-gradient(
         #ffbdd9,
@@ -100,10 +103,6 @@ nav a{
         #ffb3ff,
         #ffffff
     );
-
-    box-shadow:
-        inset 0 1px 0 white,
-        0 2px 4px rgba(0,0,0,.2);
 }
 
 .widget{
@@ -134,19 +133,6 @@ nav a{
     margin-bottom: 10px;
 }
 
-.banner img{
-    width: 995px;
-    height: 305px;
-    border-radius: 15px;
-}
-
-
-
-body {
-    background-image: url(https://i.pinimg.com/736x/5c/b7/0c/5cb70c4512bf13c7658da3490a7de530.jpg);
-    color: rgb(151, 14, 185);
-    font-family: Arial, sans-serif;
-}
 
 /* SUBTÍTULOS CAIXA */
 .caixa h3 {
@@ -163,4 +149,19 @@ body {
     text-shadow:
         0 0 5px #ff00aa;
 }
+
+.banner{
+    width: 100%;
+    height: auto;
+
+    border-radius: 15px;
+
+    margin-top: 15px;
+}
+
+
+
+
+
+
 
